@@ -1,0 +1,7 @@
+Knoppix:DEB:DE
+OpenSuSE:Zypper:DE
+APODIO:DEB:FR
+Debian:DEB:NONE
+Ubuntu:DEB:UK
+Kali:DEB:US
+Red Hat:RPM:US

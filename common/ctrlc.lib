@@ -1,0 +1,26 @@
+# no ctrlc lib
+
+ctrlc_count=0
+
+show_count()
+{
+ echo "\nctrl c was pressed ${ctrlc_count} time(s)"
+}
+
+
+no_ctrlc()
+{
+ # increment and display count
+ let ctrlc_count++
+ show_count
+ 
+ # action depending on number of times ^C was pressed 
+ if [[ $ctrlc_count == 1 ]]; then
+  echo "Stop that."
+ elif [[ $ctrlc_count == 2 ]]; then
+  echo "Once more and I quit"
+ else
+  echo "That's it. I quit"
+  exit
+fi
+}

@@ -1,0 +1,5 @@
+Berlin:DE
+Paris:FR
+London:UK
+Washington:US
+Lisbon:PT

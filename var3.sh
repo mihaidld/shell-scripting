@@ -1,0 +1,11 @@
+#!/bin/sh -x
+echo "I was called with $# parameters"
+echo "My name is $0"
+echo "My basename is `basename $0`"
+echo "My dirname is `dirname $0`"
+echo "My first parameter is $1"
+echo "My second parameter is $2"
+echo "My third parameter is $3"
+echo "My fourth parameter is $4"
+echo "All my parameters are $@"
+echo "All my parameters with * are $*"

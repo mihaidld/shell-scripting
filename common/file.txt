@@ -1,0 +1,6 @@
+ls
+date
+time
+echo $1
+echo $2
+echo something new

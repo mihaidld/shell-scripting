@@ -1,0 +1,5 @@
+DE:Germany
+FR:France
+PT:Portugal
+UK:United Kingdom
+US:United States of America
